@@ -1,0 +1,17 @@
+body {
+    background-color: #D2B48C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centered-images {
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Makes the image responsive and fit the container */
+    max-height: 255vh; /* Adjust the maximum height as needed */
+}
